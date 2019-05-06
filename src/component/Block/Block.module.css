@@ -1,0 +1,12 @@
+.btn{
+	background-color:gold;
+	border:none;
+	width: 60px;
+	height:20px;
+	border-radius:5%;
+}
+
+.btn:hover{
+	background-color:	#ffe766 
+}
+

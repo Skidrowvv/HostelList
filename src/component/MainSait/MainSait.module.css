@@ -1,0 +1,22 @@
+*{
+	padding:0;
+	margin: 0;
+}
+
+.look{
+	margin-left:550px;
+}
+
+.list{
+	margin-left:190px;
+	display: grid;
+	grid-template-columns:40% 23%  ;
+	grid-template-rows:52% 23% minmax(5px,auto);
+
+}
+
+img:hover{
+	border-radius:7%;
+	transition:1s 
+}
+
