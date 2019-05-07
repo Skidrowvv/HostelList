@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import HOTELS from '../../redux/state.js';
-import Search from '../Search/Search.js'
+import style from './Item.css';
 
 
 
@@ -29,12 +29,12 @@ searchHandler(event){
   render(){
     return(
         <div>
-          <form>
+        
+ <form className={style.forms}>
             <input type='text'
                     onChange={this.searchHandler}
             />
           </form>
-
 
           {
 this.state.HOTELS.filter(serachingFor(this.state.term)).map(el =>{

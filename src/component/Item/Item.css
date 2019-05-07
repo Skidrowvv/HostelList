@@ -1,39 +1,18 @@
-.contacts{
-  width: 300px;
-  margin :0 auto;
+.search{
+  position: absolute;
+  top: 50px;
+  border:none;
+  border-bottom:0.5px solid;
+
 }
 
-.search-field{
-  width: 100%;
-  padding: 10px;
-  font-size: 16px
+.forms{
+  margin-left:360px;
+  margin-top:20px;
 }
 
-.contacts-list{
-  padding: 0;
-  width: 100%
+.search:hover{
+  transition:2s;
+  border:none;
+  background-color:#d9d9d9
 }
-
-.contact{
-  display: flex;
-  align-items: center;
-  font-family: sans-serif;
-  width: 100%;
-  padding: 5px;
-  border-bottom :1px dotted grey
-}
-
-.contact-image{
-    margin: 5px;
-}
-
-.contact-name{
-  font-size: 20px;
-  font-weight: bold
-}
-
-.contact-number{
-  font-size: 18px;
-  color :grey
-}
-

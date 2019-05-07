@@ -1,19 +1,16 @@
 import React from 'react';
 import style from './Seacrh.module.css';
-import HOTELS from '../Block/Block.js'
+import HOTELS from '../Block/Block.js';
+import Item from '../Item/Item.js'
 
 
 
-const Search = () => {
+const Search = (props) => {
 
 	
 	return(
-	<div className={style.dive}>
-		<input type='text' 
-		className={style.search}
-
-		/>
-		{<br/>}
+		<div>
+	 
 	</div>
 	)
 }
